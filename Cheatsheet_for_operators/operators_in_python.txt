@@ -1,0 +1,177 @@
+Cheat Sheet
+
+NOT
+    Operator: not
+    Usage:
+
+    python
+
+a = True
+result = not a  # result is False
+
+OR
+
+    Operator: or
+    Usage:
+
+    python
+
+    a = True
+    b = False
+    result = a or b  # result is True
+
+XOR
+
+    Operator: ^ (bitwise XOR)
+    Usage:
+
+    python
+
+    a = 5  # 0101 in binary
+    b = 3  # 0011 in binary
+    result = a ^ b  # result is 6 (0110 in binary)
+
+NOR
+
+    Operator: Not directly available, combine or and not
+    Usage:
+
+    python
+
+    a = True
+    b = False
+    result = not (a or b)  # result is False
+
+AND
+
+    Operator: and
+    Usage:
+
+    python
+
+    a = True
+    b = False
+    result = a and b  # result is False
+
+Square
+
+    Operator: **
+    Usage:
+
+    python
+
+    number = 5
+    result = number ** 2  # result is 25
+
+Square Root
+
+    Function: math.sqrt()
+    Usage:
+
+    python
+
+    import math
+    number = 25
+    result = math.sqrt(number)  # result is 5.0
+
+Power of 3
+
+    Operator: **
+    Usage:
+
+    python
+
+    number = 2
+    result = number ** 3  # result is 8
+
+Square Root of n
+
+    Function: math.sqrt()
+    Usage:
+
+    python
+
+        import math
+        number = 16
+        result = math.sqrt(number)  # result is 4.0
+
+Additional Useful Operations
+
+    Exponentiation
+        Operator: ** or pow()
+        Usage:
+
+        python
+
+    base = 2
+    exponent = 3
+    result = base ** exponent  # result is 8
+    result = pow(base, exponent)  # result is 8
+
+Modulus
+
+    Operator: %
+    Usage:
+
+    python
+
+    a = 10
+    b = 3
+    result = a % b  # result is 1
+
+Floor Division
+
+    Operator: //
+    Usage:
+
+    python
+
+    a = 10
+    b = 3
+    result = a // b  # result is 3
+
+Negation
+
+    Operator: -
+    Usage:
+
+    python
+
+    a = 5
+    result = -a  # result is -5
+
+Bitwise AND
+
+    Operator: &
+    Usage:
+
+    python
+
+    a = 5  # 0101 in binary
+    b = 3  # 0011 in binary
+    result = a & b  # result is 1 (0001 in binary)
+
+Bitwise OR
+
+    Operator: |
+    Usage:
+
+    python
+
+    a = 5  # 0101 in binary
+    b = 3  # 0011 in binary
+    result = a | b  # result is 7 (0111 in binary)
+
+Bitwise NOT
+
+    Operator: ~
+    Usage:
+
+    python
+
+        a = 5  # 0101 in binary
+        result = ~a  # result is -6 (inverted bits)
+
+Summary
+
+This cheat sheet provides a quick reference for various operations in Python, including logical operations, arithmetic operations, and bitwise operations. Each operation is accompanied by an example to demonstrate its usage.
